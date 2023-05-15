@@ -11,12 +11,12 @@ function App() {
   const aboutRef = React.createRef();
   const portfolioRef = React.createRef();
   const contactRef = React.createRef();
-  document.body.style.backgroundColor = '#212529';
+  document.body.style.backgroundColor = 'black';
 
   return (
-    <div className="App">
+    <div className="App" style={{overflow:'hidden'}}>
       <NavBar aboutRef={aboutRef} portfolioRef={portfolioRef} contactRef={contactRef}/>
-      <div style={{backgroundColor:'black', paddingTop: '30vh', color:'white' }}>
+      <div style={{overflow:'hidden', backgroundColor:'black', paddingTop: '30vh', color:'white' }}>
         <h1 className="h1Text"  style={{fontSize:h1Size(), fontWeight:'bold'}}>
           Tristan Kerec
         </h1>
