@@ -15,6 +15,7 @@ function App() {
 
   return (
     <div className="App">
+      <body>
       <NavBar aboutRef={aboutRef} portfolioRef={portfolioRef} contactRef={contactRef}/>
       <div style={{backgroundColor:'black', paddingTop: '30vh', color:'white' }}>
         <h1 className="h1Text"  style={{fontSize:h1Size(), fontWeight:'bold'}}>
@@ -29,15 +30,15 @@ function App() {
         <button 
             class="btn btn-link text-decoration-none"
             type="button"
-            style={{fontWeight:'600', color:'#2ecc70'}}
-            onPress={() => aboutRef.current.scrollIntoView({behavior: "smooth", block: "start"})}>
+            style={{fontWeight:'500', color:'#2ecc70'}}
+            onClick={() => aboutRef.current.scrollIntoView({behavior: "smooth", block: "start"})}>
                 Learn More <i class="bi bi-chevron-down"></i>
         </button>
         <a href="/TristanKerecCV.pdf" download>
           <button
             className="btn btn-primary"
             type="button"
-            style={{ fontWeight: '600', color: 'black', backgroundColor: '#2ecc70', borderColor: '#2ecc70' }}
+            style={{ fontWeight: '500', color: 'black', backgroundColor: '#2ecc70', borderColor: '#2ecc70' }}
           >
             Download Resume
           </button>
@@ -73,6 +74,7 @@ function App() {
           Learn React
         </a>
       </body> */}
+    </body>
     </div>
   );
 }
