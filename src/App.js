@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar style={{ top: -10, zIndex: 1}} aboutRef={aboutRef} portfolioRef={portfolioRef} contactRef={contactRef}/>
+      <NavBar aboutRef={aboutRef} portfolioRef={portfolioRef} contactRef={contactRef}/>
       <div style={{backgroundColor:'black', paddingTop: '30vh', color:'white' }}>
         <h1 className="h1Text"  style={{fontSize:h1Size(), fontWeight:'bold'}}>
           Tristan Kerec
