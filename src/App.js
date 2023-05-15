@@ -14,9 +14,10 @@ function App() {
   document.body.style.backgroundColor = 'black';
 
   return (
-    <div className="App" style={{overflow:'hidden'}}>
+    <div className="App">
       <NavBar aboutRef={aboutRef} portfolioRef={portfolioRef} contactRef={contactRef}/>
-      <div style={{overflow:'hidden', backgroundColor:'black', paddingTop: '30vh', color:'white' }}>
+      <body>
+      <div style={{backgroundColor:'black', paddingTop: '30vh', color:'white' }}>
         <h1 className="h1Text"  style={{fontSize:h1Size(), fontWeight:'bold'}}>
           Tristan Kerec
         </h1>
@@ -58,21 +59,7 @@ function App() {
           Contact
         </h1>
       </div>
-      
-      {/* <body className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </body> */}
+      </body>
     </div>
   );
 }
