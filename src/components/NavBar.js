@@ -6,10 +6,6 @@ import { isMobile } from 'react-device-detect';
 const NavBar = (props) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const navbarStyles = {
-        top: 'env(safe-area-inset-top)', // Adjusts the top position for devices with rounded screens
-    };
-
     const handleMenuToggle = () => {
         setIsMenuOpen(!isMenuOpen);
     };
@@ -19,7 +15,7 @@ const NavBar = (props) => {
     };
 
     return (
-        <nav style={navbarStyles} class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style={{backgroundColor:'#212529'}}>
             <div class="container-fluid">
                 <button class="btn btn-link text-decoration-none" type="button" style={{ fontSize: fontSize(), color: 'white', fontWeight: 'Bold' }} onClick={() => document.documentElement.scrollIntoView({ behavior: "smooth", block: "start" })}>Tristan Kerec</button>
                 <button class={`navbar-toggler ${isMenuOpen ? '' : 'collapsed'}`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={isMenuOpen} aria-label="Toggle navigation" onClick={handleMenuToggle}>

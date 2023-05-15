@@ -11,11 +11,12 @@ function App() {
   const aboutRef = React.createRef();
   const portfolioRef = React.createRef();
   const contactRef = React.createRef();
+  document.body.style.backgroundColor = '#212529';
 
   return (
     <div className="App">
       <NavBar aboutRef={aboutRef} portfolioRef={portfolioRef} contactRef={contactRef}/>
-      <div style={{overflow:'hidden', backgroundColor:'black', paddingTop: '30vh', color:'white' }}>
+      <div style={{backgroundColor:'black', paddingTop: '30vh', color:'white' }}>
         <h1 className="h1Text"  style={{fontSize:h1Size(), fontWeight:'bold'}}>
           Tristan Kerec
         </h1>
@@ -32,15 +33,15 @@ function App() {
             onPress={() => aboutRef.current.scrollIntoView({behavior: "smooth", block: "start"})}>
                 Learn More <i class="bi bi-chevron-down"></i>
         </button>
-        <a href="/2.png" download>
-  <button
-    className="btn btn-primary"
-    type="button"
-    style={{ fontWeight: '600', color: 'black', backgroundColor: '#2ecc70', borderColor: '#2ecc70' }}
-  >
-    Download Resume
-  </button>
-</a>
+        <a href="/TristanKerecCV.pdf" download>
+          <button
+            className="btn btn-primary"
+            type="button"
+            style={{ fontWeight: '600', color: 'black', backgroundColor: '#2ecc70', borderColor: '#2ecc70' }}
+          >
+            Download Resume
+          </button>
+        </a>
 
         <div style={{paddingBottom:'100vh'}}></div>
         <div ref={aboutRef} style={{paddingBottom:'20vh'}}/>
