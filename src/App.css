@@ -54,6 +54,11 @@
   color:white;
   font-size: 18px;
 }
+.pText {
+  /* font-size: 25px; */
+  color:white;
+  font-size: calc(10px + 2vmin);
+}
 
 .h1TextAnim {
   /* font-size: 60px; */

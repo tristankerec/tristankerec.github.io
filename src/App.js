@@ -49,7 +49,7 @@ function App() {
         <h1 style={{fontSize:h1Size(), fontWeight:'bold', paddingBottom:'4vh'}}>
           About
         </h1>
-        <div style={{ textAlign:'center', maxWidth: isMobile ? '100%' : '70vw', margin:'0 auto'}}>
+        <div style={{ textAlign:'center', maxWidth: isMobile ? '95vw' : '70vw', margin:'0 auto'}}>
           <p style={{fontSize:h1Size() * .32, fontWeight:'normal', paddingBottom:'1vh'}}>Hi! My name is Tristan Kerec, and I am a hard working, dedicated, and disciplined Bachelor of Computing Honours Graduate with a major in Software Engineering.</p>
           <p style={{fontSize:h1Size() * .32, fontWeight:'normal', paddingBottom:'1vh'}}>I build products that put the user experience first.</p>
           <p style={{fontSize:h1Size() * .32, fontWeight:'normal', paddingBottom:'1vh'}}>Some of the programming languages, technologies, and frameworks that I am proficient in are JavaScript, React, Next.js, Vue.js, HTML, CSS, REST API, GraphQL, C, Python, Flutter, Java, Ruby, Rails, and SQL. All additional programming languages, technologies, and frameworks can be found on my <a href="/TristanKerecCV.pdf" target="_blank" style={{color: '#2ecc70'}}>resume</a>.</p>
