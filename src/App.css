@@ -55,7 +55,76 @@
   font-size: 18px;
 }
 
+.h1TextAnim {
+  /* font-size: 60px; */
+  font-size: calc(40px + 2vmin);
+  opacity: 0;
+  animation: fadeAnimation 1s ease-in-out forwards;
+  animation-delay:0.5s;
+}
+
+.h2TextAnim {
+  /* font-size: 60px; */
+  font-size: calc(40px + 2vmin);
+  opacity: 0;
+  animation: fadeAnimation 1s ease-in-out forwards;
+  animation-delay:0.5s;
+}
+
+.h3TextAnim {
+  /* font-size: 60px; */
+  font-size: calc(40px + 2vmin);
+  opacity: 0;
+  animation: fadeAnimation 1s ease-in-out forwards;
+  animation-delay:0.5s;
+}
+
+.divAnim {
+  /* font-size: 60px; */
+  /* font-size: calc(40px + 2vmin); */
+  opacity: 0;
+  animation: fadeAnimation 1.5s ease-in-out forwards;
+  animation-delay:1.5s;
+}
+
+@keyframes fadeAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.h2TextAnim {
+  /* font-size: 30px; */
+  font-size: calc(13px + 2vmin);
+}
+.h3TextAnim {
+  /* font-size: 25px; */
+  font-size: calc(10px + 2vmin);
+}
+
 ::-webkit-scrollbar {
   width: 0.1px;
   background-color: transparent;
+}
+
+.hover-button {
+  position: relative;
+  top: 0;
+  transition: top 0.3s ease-in-out;
+  animation: hoverAnimation 1s infinite;
+}
+
+@keyframes hoverAnimation {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -5px;
+  }
+  100% {
+    top: 0;
+  }
 }
