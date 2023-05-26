@@ -44,7 +44,7 @@ function App() {
         </a>
         </div>
         <div style={{paddingBottom:'100vh'}}></div>
-        <div ref={aboutRef} style={{paddingBottom:isMobile ? '15vh':'20vh'}}/>
+        <div ref={aboutRef} style={{paddingBottom:isMobile ? '12vh':'20vh'}}/>
         <h1 style={{fontSize:h1Size(), fontWeight:'bold', paddingBottom:'4vh'}}>
           About
         </h1>
@@ -62,11 +62,11 @@ function App() {
           </button>
           <div style={{paddingBottom:'30vh'}}/>
         </div>
-        <div ref={portfolioRef} style={{paddingBottom:isMobile ? '15vh':'20vh'}}/>
+        <div ref={portfolioRef} style={{paddingBottom:isMobile ? '12vh':'20vh'}}/>
         <h1 style={{fontSize:h1Size(), fontWeight:'bold', paddingBottom:'100vh'}}>
           Portfolio
         </h1>
-        <div ref={contactRef} style={{paddingBottom:isMobile ? '15vh':'20vh'}}/>
+        <div ref={contactRef} style={{paddingBottom:isMobile ? '12vh':'20vh'}}/>
         <h1 style={{fontSize:h1Size(), fontWeight:'bold', paddingBottom:'100vh'}}>
           Contact
         </h1>
