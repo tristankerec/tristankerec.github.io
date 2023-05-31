@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import React from 'react';
 import { isMobile } from 'react-device-detect';
+import EmailForm from './components/EmailForm';
 
 function App() {
 
@@ -70,6 +71,7 @@ function App() {
         <h1 style={{fontSize:h1Size(), fontWeight:'bold', paddingBottom:'100vh'}}>
           Contact
         </h1>
+        <EmailForm></EmailForm>
       </div>
       </body>
     </div>
