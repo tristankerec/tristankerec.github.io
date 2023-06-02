@@ -37,6 +37,16 @@
   }
 }
 
+.bi-github:hover {
+  color:#FFFFFF;
+  transition: 0.3s;
+}
+
+.bi-linkedin:hover {
+  color:#0053b1;
+  transition: 0.3s;
+}
+
 .h1Text {
   /* font-size: 60px; */
   font-size: calc(40px + 2vmin);

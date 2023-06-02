@@ -37,22 +37,21 @@ function App() {
         </button>
         <a href="/TristanKerecCV.pdf" download>
           <button
-            className="btn btn-primary"
+            className="btn"
             type="button"
             onMouseEnter={(e) => {e.target.style.backgroundColor = '#1e9c53'; e.target.style.borderColor='#1e9c53';}}
             onMouseLeave={(e) => {e.target.style.backgroundColor = '#2ecc70'; e.target.style.borderColor='#2ecc70';}}
             style={{ fontWeight: '500', color: 'black', backgroundColor: '#2ecc70', borderColor: '#2ecc70' }}
+            // style={{ fontWeight: '500', color: 'black'}}
           >
             Download Resume
           </button>
         </a>
-        <div style={{display:'flex', justifyContent:'space-between',margin:'0 auto', maxWidth:'80vw'}}></div>
+        <div>
         <a href="https://github.com/tristankerec" target='_blank' rel='noreferrer'>
           <button
           className="btn btn-link text-decoration-none"
           type="button"
-          onMouseEnter={(e) => {e.target.style.color = '#fff';}}
-          onMouseLeave={(e) => e.target.style.color = 'gray'}
           style={{transition: 'color 0.3s', fontWeight:'500', color:'gray', fontSize:isMobile ? h1Size()*.6 : h1Size() * .38}}>
           <i className="bi bi-github"></i>
           </button>
@@ -61,12 +60,11 @@ function App() {
           <button
           className="btn btn-link text-decoration-none"
           type="button"
-          onMouseEnter={(e) => {e.target.style.color = '#0077b5'}}
-          onMouseLeave={(e) => e.target.style.color = 'gray'}
-          style={{transition: 'color 0.3s',fontWeight:'500', color:"gray", fontSize:isMobile ? h1Size()*.6 : h1Size() * .38}}>
+          style={{fontWeight:'500', color:"gray", fontSize:isMobile ? h1Size()*.6 : h1Size() * .38}}>
           <i className="bi bi-linkedin"></i>
           </button>
         </a>
+        </div>
         </div>
         <div style={{paddingBottom:'100vh'}}></div>
         <div ref={aboutRef} style={{paddingBottom:isMobile ? '12vh':'20vh'}}/>
