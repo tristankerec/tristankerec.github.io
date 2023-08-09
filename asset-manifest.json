@@ -1,17 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.d5e6cb8d.css",
-    "main.js": "/static/js/main.30d35250.js",
+    "main.css": "/static/css/main.b19f83da.css",
+    "main.js": "/static/js/main.2fea84c0.js",
     "static/js/787.8179e823.chunk.js": "/static/js/787.8179e823.chunk.js",
+    "static/media/slime2.png": "/static/media/slime2.9851610ce8a8c0b2f80b.png",
+    "static/media/slime3.png": "/static/media/slime3.a81c16056b6fe322ac4c.png",
+    "static/media/slime4.png": "/static/media/slime4.1616b4a13501dd8ccc53.png",
+    "static/media/climateRiskAppCHART.png": "/static/media/climateRiskAppCHART.2474bddec3f68d3da3d9.png",
+    "static/media/tastetwin3.png": "/static/media/tastetwin3.a08e902db573dd9a4642.png",
+    "static/media/tastetwin5.png": "/static/media/tastetwin5.2e5148641f5510e6733e.png",
+    "static/media/climateRiskAppMAP.png": "/static/media/climateRiskAppMAP.3a30881aaed795a795a9.png",
+    "static/media/fullAppNew.png": "/static/media/fullAppNew.29d5e457a3628986366a.png",
+    "static/media/tastetwin.png": "/static/media/tastetwin.6c90edd86bf4a8971f36.png",
+    "static/media/fullApp4.png": "/static/media/fullApp4.900b94eccc2245bc76ac.png",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/tastetwin4.png": "/static/media/tastetwin4.d9edc79314858d16a5df.png",
+    "static/media/climateRiskAppTABLE.png": "/static/media/climateRiskAppTABLE.78cb4c6faa7fb51401c7.png",
+    "static/media/tastetwin6.png": "/static/media/tastetwin6.a1b80d0b6da68efe7852.png",
     "index.html": "/index.html",
-    "main.d5e6cb8d.css.map": "/static/css/main.d5e6cb8d.css.map",
-    "main.30d35250.js.map": "/static/js/main.30d35250.js.map",
+    "main.b19f83da.css.map": "/static/css/main.b19f83da.css.map",
+    "main.2fea84c0.js.map": "/static/js/main.2fea84c0.js.map",
     "787.8179e823.chunk.js.map": "/static/js/787.8179e823.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5e6cb8d.css",
-    "static/js/main.30d35250.js"
+    "static/css/main.b19f83da.css",
+    "static/js/main.2fea84c0.js"
   ]
 }
