@@ -1,0 +1,239 @@
+.tastetwinPicture {
+    background-image: url("../../public/portfolioPictures/tastetwin3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    aspect-ratio: 467/430;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tastetwinPicture2 {
+    background-image: url("../../public/portfolioPictures/tastetwin3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    aspect-ratio: 467/430;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tastetwinPicture3 {
+    background-image: url("../../public/portfolioPictures/tastetwin4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    aspect-ratio: 467/430;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tastetwinPicture4 {
+    background-image: url("../../public/portfolioPictures/tastetwin5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    aspect-ratio: 467/430;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tastetwinPicture5 {
+    background-image: url("../../public/portfolioPictures/tastetwin6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    aspect-ratio: 467/430;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tastetwinFull {
+    background-image: url("../../public/portfolioPictures/tastetwin.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    aspect-ratio: 467/430;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+}
+
+.mobileCard {
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    bottom:0;
+    left: 0px;
+    right:0px;
+    width: 100%;
+    padding: 0.5rem;
+    padding-top:0.8rem;
+    overflow: hidden;
+}
+
+.customCard {
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    top: 85%;
+    left: 0px;
+    right:0px;
+    width: 100%;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.customCard2 {
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    top: 85%;
+    left: 0px;
+    right: 0px;
+    bottom:0%;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.customCard.reverse {
+    background-color: rgba(0, 0, 0, 0.85);
+    position: abs1olute;
+    top: 85%;
+    left: 0px;
+    right:0px;
+    width: 100%;
+    /* padding-top: .5rem; */
+    transition: 0.3s ease-in;
+    animation: hoverAnimation3 .8s;
+    overflow: hidden;
+}
+
+.customCard.animate {
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    top: 58%;
+    left: 0px;
+    right:0px;
+    width: 100%;
+    /* padding-top: .5rem; */
+    transition: 0.3s ease-in;
+    animation: hoverAnimation2 .8s;
+    overflow: hidden;
+}
+
+@keyframes hoverAnimation2 {
+    0% {
+        /* bottom:-120px; */
+        top: 85%;
+    }
+    100% {
+        /* bottom: 0; */
+        top: 58%;
+        /* top:22vh; */
+        /* bottom:0; */
+    }
+}
+
+@keyframes hoverAnimation3 {
+    0% {
+        /* bottom:0%; */
+        top: 58%;
+        /* top:22vh; */
+        /* bottom:0; */
+    }
+    100% {
+        /* bottom:-120px; */
+        top: 85%;
+    }
+}
+
+.climateRiskPicturePort {
+    background-image: url("../../public/portfolioPictures/climateRiskAppMAP.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    aspect-ratio: 467/430;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.climateRiskPicture {
+    background-image: url("../../public/portfolioPictures/climateRiskAppMAP.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    aspect-ratio: 467/440;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.climateRiskPicture2 {
+    background-image: url("../../public/portfolioPictures/climateRiskAppCHART.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    aspect-ratio: 467/440;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.climateRiskPicture3 {
+    background-image: url("../../public/portfolioPictures/fullAppNew.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    aspect-ratio: 467/440;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.climateRiskPicture4 {
+    background-image: url("../../public/portfolioPictures/climateRiskAppTABLE.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    aspect-ratio: 467/440;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.climateRiskPicture5 {
+    background-image: url("../../public/portfolioPictures/fullApp4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    aspect-ratio: 467/430;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.slimePicture {
+    background-image: url("../../public/portfolioPictures/slime2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    aspect-ratio: 467/430;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.slimePicture2 {
+    background-image: url("../../public/portfolioPictures/slime3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    aspect-ratio: 467/430;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.slimePicture3 {
+    background-image: url("../../public/portfolioPictures/slime4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    aspect-ratio: 467/430;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.lightMode {
+    filter: invert(100%);
+}

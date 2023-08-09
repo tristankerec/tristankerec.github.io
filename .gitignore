@@ -11,6 +11,7 @@
 # production
 /build
 /src/components/credentials.js
+/public/portfolioPictures
 
 # misc
 .DS_Store
