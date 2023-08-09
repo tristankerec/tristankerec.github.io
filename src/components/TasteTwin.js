@@ -196,16 +196,3 @@ function h1Size() {
     }
   // }
 }
-
-function handleMobile() {
-  toast.error('The Climate Risk Data Web App is currently unavailable on mobile. Open this webpage on a non-mobile device to interact with it.', {
-    position:"top-center",
-    autoClose:3000,
-    hideProgressBar: true,
-    closeOnClick: true,
-    pauseOnHover: true,
-    draggable: true,
-    progress: undefined,
-    theme: "light",
-  })
-}
