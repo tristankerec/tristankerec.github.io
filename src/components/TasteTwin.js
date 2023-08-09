@@ -5,7 +5,6 @@ import { HashLink as Link } from 'react-router-hash-link';
 import './images.css';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { toast } from 'react-toastify';
 import 'react-tooltip/dist/react-tooltip.css'
 
 function TasteTwin() {
