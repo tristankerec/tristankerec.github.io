@@ -33,7 +33,7 @@ function WebApp() {
                 onMouseLeave={(e) => {e.target.style.color = '#2ecc70';}}
                 style={{fontWeight:'500', color:'#A1A5AA'}}
                 ><i className="bi bi-chevron-left"></i></button>
-                <Link smooth to="/tastetwin">
+                <Link smooth to="/">
                 <button
                 className="btn btn-link text-decoration-none"
                 type="button"
@@ -103,7 +103,7 @@ function WebApp() {
                 type="button"
                 style={{fontWeight:'500', color:'#A1A5AA'}}
                 ><i className="bi bi-chevron-left"></i>Previous</button>
-                <Link smooth to="/tastetwin">
+                <Link to="/tastetwin">
                 <button
                 className="btn btn-link text-decoration-none"
                 type="button"
@@ -150,7 +150,7 @@ function WebApp() {
                 </div>
                 <div className="carousel-inner" style={{borderRadius:'20px'}}>
                     <div className="carousel-item active">
-                      <div className='climateRiskPicture4' style={{minWidth:'300px',width:'35vw', maxWidth:'35vw'}}></div>
+                      <div className='climateRiskPicture3' style={{minWidth:'300px',width:'35vw', maxWidth:'35vw'}}></div>
 
                     </div>
                     <div className="carousel-item">
@@ -162,7 +162,7 @@ function WebApp() {
 
                     </div>
                     <div className="carousel-item">
-                      <div className='climateRiskPicture3' style={{minWidth:'300px',width:'35vw', maxWidth:'35vw'}}></div>
+                      <div className='climateRiskPicture4' style={{minWidth:'300px',width:'35vw', maxWidth:'35vw'}}></div>
 
                     </div>
                 </div>

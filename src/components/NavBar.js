@@ -15,7 +15,7 @@ const NavBar = (props) => {
     };
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark fixed-top" style={{backgroundColor:'#212529', paddingTop:isMobile ?'0px':'', marginTop:isMobile ?'0px':''}}>
+        <nav className="navbar navbar-expand-lg navbar-dark fixed-top" style={{backgroundColor:'#212529', paddingTop:isMobile ?'':'', marginTop:isMobile ?'':''}}>
             <div className="container-fluid">
                 <Link smooth to="/#"><button className="btn btn-link text-decoration-none" type="button" style={{ fontSize: fontSize(), color: 'white', fontWeight: 'Bold' }}>Tristan Kerec</button></Link>
                 <button className={`navbar-toggler ${isMenuOpen ? '' : 'collapsed'}`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={isMenuOpen} aria-label="Toggle navigation" onClick={handleMenuToggle}>
