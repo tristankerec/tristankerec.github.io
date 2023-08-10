@@ -26,7 +26,7 @@ function TasteTwin() {
                 <i className="bi bi-chevron-left"></i> Back</button></Link>
                 </div>
                 <div>
-                <Link smooth to="/#/climate-risk-data-webapp">
+                <Link smooth to="/climate-risk-data-webapp">
                 <button
                 className="btn btn-link text-decoration-none"
                 type="button"
@@ -35,7 +35,7 @@ function TasteTwin() {
                 style={{fontWeight:'500', color:'#2ecc70'}}
                 ><i className="bi bi-chevron-left"></i></button>
                 </Link>
-                <Link smooth to="/#/sticky-slime-showdown">
+                <Link smooth to="/sticky-slime-showdown">
                 <button
                 className="btn btn-link text-decoration-none"
                 type="button"

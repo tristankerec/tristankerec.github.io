@@ -26,6 +26,7 @@ const Portfolio = () => {
   if (isMobile) {
     return (
       <div style={{overflow:'hidden',display:'flex', flexWrap: 'wrap', justifyContent:isMobile ? 'center':'space-evenly', maxWidth:isMobile ?'100%':'90vw', margin:isMobile?'':'0 auto', gap: isMobile ? '1.5vh' : '80px'}}>
+        <a href="/#/climate-risk-data-webapp" style={{color:'white'}}>
         <div style={{overflow:'hidden'}}>
           <div class="card bg-dark" style={{ minWidth:'300px',width:'80vw', maxWidth:'430px'}}>
             <div class="climateRiskPicture card-img-top card-img-bottom" style={{overflow:'hidden'}}>
@@ -33,7 +34,7 @@ const Portfolio = () => {
                 <h5 style={{fontWeight:'bold', fontSize:'18px'}}>Climate Risk Data Web App</h5>
                 <p class="card-text" style={{fontSize:'13px'}}>A Next.js web-app to visualize sample Climate risk data in a map, data table, and line graph.</p>
                 <div style={{display:"flex",justifyContent:'center'}}>
-                <a href="/climate-risk-data-webapp"
+                <a href="/#/climate-risk-data-webapp"
                   className="btn"
                   style={{ padding:'0px', fontWeight: '500', color: 'black', backgroundColor: '#2ecc70', borderColor: '#2ecc70', flex:'1', fontSize:'14px'}}>
                   <button
@@ -50,15 +51,16 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
+        </a>
         <div style={{overflow:'hidden'}}>
           <div class="card bg-dark" style={{ minWidth:'300px',width:'80vw', maxWidth:'430px'}}>
+          <a href="/#/tastetwin" style={{color:'white'}}>
             <div class="tastetwinPicture card-img-top card-img-bottom" style={{overflow:'hidden'}}>
               <div id="one" class="card-body mobileCard" style={{overflow:'hidden'}}>
                 <h5 style={{fontWeight:'bold', fontSize:'18px'}}>TasteTwin</h5>
                 <p class="card-text" style={{fontSize:'13px'}}>A mobile app to designed to help people find a place to eat.</p>
                 <div style={{display:"flex",justifyContent:'center'}}>
-
-                <a href="#tastetwin"
+                <a href="/#/tastetwin"
                   className="btn"
                   style={{ padding:'0px', fontWeight: '500', color: 'black', backgroundColor: '#2ecc70', borderColor: '#2ecc70', flex:'1', fontSize:'14px'}}>
                   <button
@@ -73,16 +75,19 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
+          </a>
           </div>
         </div>
         <div style={{overflow:'hidden'}}>
           <div class="card bg-dark" style={{ minWidth:'300px',width:'80vw', maxWidth:'430px'}}>
+          <a href="/#/sticky-slime-showdown" style={{color:'white'}}>
             <div class="slimePicture card-img-top card-img-bottom" style={{overflow:'hidden'}}>
+              
               <div id="one" class="card-body mobileCard" style={{overflow:'hidden'}}>
                 <h5 style={{fontWeight:'bold', fontSize:'18px'}}>Sticky Slime Showdown</h5>
                 <p class="card-text" style={{fontSize:'13px'}}>A Unity micro game about a slime that progresses through an evolving world.</p>
                 <div style={{display:"flex",justifyContent:'center'}}>
-                <a href="/sticky-slime-showdown"
+                <a href="/#/sticky-slime-showdown"
                   className="btn"
                   style={{ padding:'0px', fontWeight: '500', color: 'black', backgroundColor: '#2ecc70', borderColor: '#2ecc70', flex:'1', fontSize:'14px'}}>
                   <button
@@ -97,6 +102,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
+          </a>
           </div>
         </div>
       </div>

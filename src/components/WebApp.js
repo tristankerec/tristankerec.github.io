@@ -29,11 +29,11 @@ function WebApp() {
                 <button
                 className="btn btn-link text-decoration-none"
                 type="button"
-                onMouseEnter={(e) => {e.target.style.color = '#1e9c53';}}
-                onMouseLeave={(e) => {e.target.style.color = '#2ecc70';}}
+                //onMouseEnter={(e) => {e.target.style.color = '#1e9c53';}}
+                //onMouseLeave={(e) => {e.target.style.color = '#2ecc70';}}
                 style={{fontWeight:'500', color:'#A1A5AA'}}
                 ><i className="bi bi-chevron-left"></i></button>
-                <Link smooth to="/">
+                <Link smooth to="/tastetwin">
                 <button
                 className="btn btn-link text-decoration-none"
                 type="button"
