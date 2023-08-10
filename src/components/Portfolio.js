@@ -1,7 +1,7 @@
 import React from 'react';
 import { isMobile } from 'react-device-detect';
 import './images.css';
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 //import { HashLink } from 'react-router-hash-link';
 
 

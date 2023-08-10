@@ -9,6 +9,11 @@ import 'react-tooltip/dist/react-tooltip.css'
 
 function TasteTwin() {
   document.body.style.backgroundColor = 'black';
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'instant',
+  });
   if (isMobile) {
     return (
       <>

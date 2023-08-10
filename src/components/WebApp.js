@@ -9,6 +9,12 @@ import 'react-tooltip/dist/react-tooltip.css'
 
 function WebApp() {
   document.body.style.backgroundColor = 'black';
+  //window.scrollTo(0,0); 
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'instant',
+  });
   if (isMobile) {
     return (
       <>
