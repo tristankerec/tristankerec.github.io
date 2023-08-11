@@ -6,7 +6,7 @@ import './images.css';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import 'react-tooltip/dist/react-tooltip.css'
-import { useEffect } from 'react';
+//import { useEffect } from 'react';
 
 function WebApp() {
   document.body.style.backgroundColor = 'black';
