@@ -6,15 +6,24 @@ import './images.css';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import 'react-tooltip/dist/react-tooltip.css'
+import { useEffect } from 'react';
 
 function WebApp() {
   document.body.style.backgroundColor = 'black';
   //window.scrollTo(0,0); 
+  // useEffect(() => {
+  //   window.scrollTo({
+  //     top: 0,
+  //     left: 0,
+  //     behavior: 'instant',
+  //   });
+  // }, []);
   window.scrollTo({
     top: 0,
     left: 0,
     behavior: 'instant',
   });
+  
   if (isMobile) {
     return (
       <>
